@@ -1,0 +1,290 @@
+arc4.ko:
+fat.ko:
+qed.ko:
+ip_vs.ko: ipv6.ko nf_conntrack.ko
+igb.ko: dca.ko
+uhci-hcd.ko: usbcore.ko usb-common.ko
+hid-generic.ko: hid.ko
+raid0.ko:
+vhost.ko: target_core_mod.ko
+grace.ko:
+isofs.ko:
+qla2xxx.ko: scsi_transport_fc.ko
+xfrm4_tunnel.ko: tunnel4.ko
+bonding.ko:
+ppp_deflate.ko: ppp_generic.ko slhc.ko
+xfrm_algo.ko:
+ah4.ko: xfrm_algo.ko
+acpi-cpufreq.ko: processor.ko
+dm-flakey.ko: dm-mod.ko
+fuse.ko:
+md4.ko:
+xt_mac.ko: x_tables.ko
+syno_extent_pool.ko: rodsp_ep.ko
+nf_conntrack_pptp.ko: nf_conntrack_proto_gre.ko nf_conntrack.ko
+flashcache_syno.ko: syno_flashcache_control.ko dm-mod.ko
+ehci-pci.ko: ehci-hcd.ko usbcore.ko usb-common.ko
+usbcore.ko: usb-common.ko
+xt_REDIRECT.ko: nf_nat_redirect.ko nf_nat.ko nf_conntrack.ko x_tables.ko
+libiscsi.ko:
+nf_nat_pptp.ko: nf_nat_proto_gre.ko nf_conntrack_pptp.ko nf_conntrack_proto_gre.ko nf_nat.ko nf_conntrack.ko
+ixgbe.ko: vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko dca.ko
+xt_conntrack.ko: nf_conntrack.ko x_tables.ko
+nf_nat_proto_gre.ko: nf_nat.ko nf_conntrack.ko
+ccm.ko:
+sit.ko: ipv6.ko ip_tunnel.ko tunnel4.ko
+vfio_iommu_type1.ko: vfio.ko
+usbserial.ko: usbcore.ko usb-common.ko
+slhc.ko:
+pppoe.ko: pppox.ko ppp_generic.ko slhc.ko
+nfnetlink.ko:
+xfrm6_mode_beet.ko: ipv6.ko
+nf_defrag_ipv4.ko:
+usb-common.ko:
+iptable_mangle.ko: ip_tables.ko x_tables.ko
+i2c-algo-bit.ko:
+ip6table_mangle.ko: ip6_tables.ko ipv6.ko x_tables.ko
+target_core_iblock.ko: target_core_mod.ko
+ftdi_sio.ko: usbserial.ko usbcore.ko usb-common.ko
+xt_nat.ko: nf_nat.ko nf_conntrack.ko x_tables.ko
+cbc.ko:
+openvswitch.ko: nf_defrag_ipv6.ko ipv6.ko nf_conntrack.ko
+ppp_generic.ko: slhc.ko
+xt_state.ko: nf_conntrack.ko x_tables.ko
+xfrm4_mode_transport.ko:
+ip_tables.ko: x_tables.ko
+nf_defrag_ipv6.ko: ipv6.ko
+phy_alloc_0810_x64.ko:
+bnx2x.ko: mdio.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+xt_tcpudp.ko: x_tables.ko
+zstd_compress.ko: xxhash.ko
+sch_netem.ko:
+cls_fw.ko:
+cryptd.ko:
+gre.ko:
+udp_tunnel.ko:
+dm-snapshot.ko: dm-bufio.ko dm-mod.ko
+cifs.ko:
+leds-atmega1608.ko:
+l2tp_core.ko: ipv6.ko ip6_udp_tunnel.ko udp_tunnel.ko
+raid456.ko: async_raid6_recov.ko async_memcpy.ko async_pq.ko async_xor.ko xor.ko async_tx.ko raid6_pq.ko
+soundcore.ko:
+leds-lp3943.ko:
+async_memcpy.ko: async_tx.ko
+nfsv3.ko: nfs.ko lockd.ko grace.ko sunrpc.ko
+atlantic.ko: crc-itu-t.ko
+veth.ko:
+xt_mark.ko: x_tables.ko
+ablk_helper.ko: cryptd.ko
+nf_nat.ko: nf_conntrack.ko
+crc32c-intel.ko:
+nf_conntrack_ipv4.ko: nf_defrag_ipv4.ko nf_conntrack.ko
+ehci-hcd.ko: usbcore.ko usb-common.ko
+md5.ko:
+mpt3sas.ko:
+dm-mod.ko:
+ib_sa.ko: mlx_compat.ko
+ppp_synctty.ko: ppp_generic.ko slhc.ko
+xfrm4_mode_tunnel.ko:
+ghash-generic.ko: gf128mul.ko
+bridge.ko: stp.ko llc.ko
+vfio-pci.ko: irqbypass.ko vfio_virqfd.ko vfio.ko
+loop.ko:
+mlx5_core.ko: mlx_compat.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+psnap.ko: llc.ko
+snd.ko: soundcore.ko
+be2net.ko: vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+processor.ko:
+vfat.ko: fat.ko
+tcm_qla2xxx.ko: qla2xxx.ko scsi_transport_fc.ko target_core_mod.ko
+vxlan.ko: ip6_udp_tunnel.ko udp_tunnel.ko
+nf_nat_redirect.ko: nf_nat.ko nf_conntrack.ko
+snd-usb-hiface.ko: snd-pcm.ko snd.ko soundcore.ko usbcore.ko usb-common.ko
+crc-itu-t.ko:
+qedr.ko: qede.ko qed.ko ib_core.ko mlx_compat.ko ipv6.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+tcm_fc.ko: libfc.ko scsi_transport_fc.ko target_core_mod.ko
+async_xor.ko: xor.ko async_tx.ko
+macvlan.ko:
+mlx4_en.ko: mlx4_core.ko mlx_compat.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+xt_multiport.ko: x_tables.ko
+af_key.ko: xfrm_algo.ko
+async_tx.ko:
+xt_policy.ko: x_tables.ko
+tunnel4.ko:
+synoacl_vfs.ko:
+8021q.ko:
+ppp_mppe.ko: ppp_generic.ko slhc.ko
+snd-pcm.ko: snd.ko soundcore.ko
+iptable_nat.ko: nf_nat_ipv4.ko ip_tables.ko nf_nat.ko nf_conntrack.ko x_tables.ko
+echainiv.ko:
+xt_set.ko: ip_set.ko nfnetlink.ko x_tables.ko
+snd-timer.ko: snd.ko soundcore.ko
+ip6table_filter.ko: ip6_tables.ko x_tables.ko
+nf_nat_ipv4.ko: nf_nat.ko nf_conntrack.ko
+dca.ko:
+syno_flashcache_control.ko:
+cpufreq_stats.ko:
+adt7475.ko:
+raid6_pq.ko:
+atlantic_v2.ko: crc-itu-t.ko
+iw_cm.ko: ib_core.ko mlx_compat.ko ipv6.ko
+usbip-core.ko:
+snd-seq-device.ko: snd.ko soundcore.ko
+ipv6.ko:
+lrw.ko: gf128mul.ko
+btrfs.ko: ecryptfs.ko zstd_decompress.ko zstd_compress.ko xxhash.ko xor.ko raid6_pq.ko
+ipcomp.ko: xfrm_ipcomp.ko xfrm_algo.ko
+ib_mad.ko: mlx_compat.ko
+sch_htb.ko:
+irqbypass.ko:
+ah6.ko: ipv6.ko xfrm_algo.ko
+nf_conntrack_proto_gre.ko: nf_conntrack.ko
+deflate.ko:
+ip_tunnel.ko:
+x_tables.ko:
+glue_helper.ko:
+xfrm6_mode_transport.ko:
+ib_isert.ko: rdma_cm.ko iw_cm.ko ib_cm.ko iscsi_target_mod.ko ib_core.ko mlx_compat.ko target_core_mod.ko ipv6.ko
+xfrm6_mode_tunnel.ko: ipv6.ko
+xfrm_user.ko: xfrm_algo.ko
+cpufreq_performance.ko:
+mpls_gso.ko:
+linear.ko:
+xt_LOG.ko: x_tables.ko
+zstd_decompress.ko: xxhash.ko
+xt_ipvs.ko: ip_vs.ko ipv6.ko nf_conntrack.ko x_tables.ko
+nfnetlink_queue.ko: nfnetlink.ko
+raid10.ko:
+target_core_ep.ko: target_core_mod.ko
+ip_vs_rr.ko: ip_vs.ko ipv6.ko nf_conntrack.ko
+target_core_mod.ko:
+mv14xx.ko:
+mlx4_core.ko: mlx_compat.ko
+sch_sfq.ko:
+cdc_ether.ko: usbnet.ko usbcore.ko usb-common.ko
+ipt_MASQUERADE.ko: nf_nat_masquerade_ipv4.ko nf_nat.ko nf_conntrack.ko x_tables.ko
+snd-usb-audio.ko: snd-hwdep.ko snd-usbmidi-lib.ko snd-rawmidi.ko snd-seq-device.ko snd-pcm.ko snd.ko soundcore.ko usbcore.ko usb-common.ko
+usbnet.ko: usbcore.ko usb-common.ko
+n_hdlc.ko:
+synobios.ko:
+sunrpc.ko:
+etxhci-hcd.ko: usbcore.ko usb-common.ko
+cts.ko:
+xxhash.ko:
+iptable_filter.ko: ip_tables.ko x_tables.ko
+br_netfilter.ko: bridge.ko stp.ko llc.ko
+sg.ko:
+rpcsec_gss_krb5.ko: auth_rpcgss.ko sunrpc.ko
+iscsi_tcp.ko: libiscsi_tcp.ko libiscsi.ko
+ip6_udp_tunnel.ko:
+qede.ko: qed.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+ppp_async.ko: crc-ccitt.ko ppp_generic.ko slhc.ko
+kvm-intel.ko: kvm.ko irqbypass.ko
+xt_NFQUEUE.ko: x_tables.ko
+flashcache.ko: syno_flashcache_control.ko dm-mod.ko
+snd-pcm-oss.ko: snd-mixer-oss.ko snd-pcm.ko snd.ko soundcore.ko
+dm-bufio.ko: dm-mod.ko
+appletalk.ko: psnap.ko llc.ko
+synorbd.ko:
+auth_rpcgss.ko: sunrpc.ko
+ipcomp6.ko: xfrm6_tunnel.ko tunnel6.ko xfrm_ipcomp.ko ipv6.ko xfrm_algo.ko
+lockd.ko: grace.ko sunrpc.ko
+pptp.ko: gre.ko pppox.ko ppp_generic.ko slhc.ko
+ip6_tables.ko: x_tables.ko
+xt_limit.ko: x_tables.ko
+authencesn.ko: authenc.ko
+xhci-hcd.ko: usbcore.ko usb-common.ko
+nf_conntrack.ko:
+stp.ko: llc.ko
+ib_addr.ko: mlx_compat.ko
+aesni-intel.ko: aes-x86_64.ko glue_helper.ko lrw.ko ablk_helper.ko cryptd.ko gf128mul.ko
+netconsole.ko:
+vhost_net.ko: tun.ko vhost.ko target_core_mod.ko
+hfsplus.ko:
+snd-rawmidi.ko: snd-seq-device.ko snd.ko soundcore.ko
+xfrm6_tunnel.ko: tunnel6.ko ipv6.ko
+udf.ko: crc-itu-t.ko
+ecryptfs.ko:
+compat_xtables.ko:
+crc-ccitt.ko:
+gf128mul.ko:
+ib_cm.ko: ib_core.ko mlx_compat.ko ipv6.ko
+rodsp_ep.ko:
+xfrm_ipcomp.ko: xfrm_algo.ko
+dm-raid.ko: raid456.ko async_raid6_recov.ko async_memcpy.ko async_pq.ko async_xor.ko xor.ko async_tx.ko raid6_pq.ko dm-mod.ko
+xhci-pci.ko: xhci-hcd.ko usbcore.ko usb-common.ko
+r8168.ko:
+ocs_fc_lio.ko: scsi_transport_fc.ko target_core_mod.ko
+mlx5_ib.ko: mlx5_core.ko ib_core.ko mlx_compat.ko ipv6.ko vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+aufs.ko:
+hid.ko:
+target_core_file.ko: target_core_mod.ko rodsp_ep.ko
+drbd.ko:
+mlx_compat.ko:
+usblp.ko: usbcore.ko usb-common.ko
+l2tp_ppp.ko: l2tp_core.ko pppox.ko ipv6.ko ip6_udp_tunnel.ko udp_tunnel.ko ppp_generic.ko slhc.ko
+ctr.ko:
+sha256_generic.ko:
+nf_conntrack_ipv6.ko: nf_defrag_ipv6.ko ipv6.ko nf_conntrack.ko
+llc.ko:
+cdc-acm.ko: usbcore.ko usb-common.ko
+target_core_multi_file.ko: target_core_mod.ko rodsp_ep.ko
+mlx4_ib.ko: mlx4_core.ko ib_core.ko mlx_compat.ko ipv6.ko
+usb-storage.ko: usbcore.ko usb-common.ko
+async_pq.ko: async_xor.ko xor.ko async_tx.ko raid6_pq.ko
+cmac.ko:
+kvm.ko: irqbypass.ko
+cls_u32.ko:
+snd-mixer-oss.ko: snd.ko soundcore.ko
+nf_nat_masquerade_ipv4.ko: nf_nat.ko nf_conntrack.ko
+bsd_comp.ko: ppp_generic.ko slhc.ko
+synofsbd.ko:
+syno_hddmon.ko:
+i40e.ko: vxlan.ko ip6_udp_tunnel.ko udp_tunnel.ko
+ib_core.ko: mlx_compat.ko ipv6.ko
+ansi_cprng.ko:
+iscsi_target_mod.ko: target_core_mod.ko
+usbhid.ko: hid.ko usbcore.ko usb-common.ko
+nfs.ko: lockd.ko grace.ko sunrpc.ko
+libfc.ko: scsi_transport_fc.ko
+tun.ko:
+nfsv2.ko: nfs.ko lockd.ko grace.ko sunrpc.ko
+esp6.ko: ipv6.ko xfrm_algo.ko
+xfrm4_mode_beet.ko:
+cpufreq_powersave.ko:
+p8022.ko: llc.ko
+pppox.ko: ppp_generic.ko slhc.ko
+vhost_scsi.ko: vhost.ko target_core_mod.ko
+mdio.ko:
+vfio_virqfd.ko:
+snd-hwdep.ko: snd.ko soundcore.ko
+nfsd.ko: btrfs.ko ecryptfs.ko zstd_decompress.ko zstd_compress.ko xxhash.ko xor.ko raid6_pq.ko auth_rpcgss.ko lockd.ko grace.ko sunrpc.ko
+xor.ko:
+des_generic.ko:
+ip_set_hash_ip.ko: ip_set.ko nfnetlink.ko
+hmac.ko:
+target_core_user.ko: target_core_mod.ko
+aes-x86_64.ko:
+tcm_loop.ko: target_core_mod.ko
+tunnel6.ko:
+async_raid6_recov.ko: async_memcpy.ko async_pq.ko async_xor.ko xor.ko async_tx.ko raid6_pq.ko
+libiscsi_tcp.ko: libiscsi.ko
+scsi_transport_fc.ko:
+zram.ko:
+ip_set.ko: nfnetlink.ko
+rdma_cm.ko: iw_cm.ko ib_cm.ko ib_core.ko mlx_compat.ko ipv6.ko
+ecb.ko:
+xt_recent.ko: x_tables.ko
+usbip-host.ko: usbip-core.ko usbcore.ko usb-common.ko
+xt_addrtype.ko: x_tables.ko
+esp4.ko: xfrm_algo.ko
+exfat.ko:
+nfsv4.ko: nfs.ko lockd.ko grace.ko sunrpc.ko
+xt_iprange.ko: x_tables.ko
+xt_TCPMSS.ko: x_tables.ko
+xt_geoip.ko: x_tables.ko
+snd-usbmidi-lib.ko: snd-rawmidi.ko snd-seq-device.ko snd.ko soundcore.ko usbcore.ko usb-common.ko
+authenc.ko:
+pci-stub.ko:
+seqiv.ko:
+vfio.ko:

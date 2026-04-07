@@ -1,0 +1,10 @@
+# Device nodes to trigger on-demand module loading.
+fuse fuse c10:229
+ppp_generic ppp c108:0
+dm_mod mapper/control c10:236
+loop loop-control c10:237
+snd_timer snd/timer c116:33
+btrfs btrfs-control c10:234
+vhost_net vhost-net c10:238
+tun net/tun c10:200
+vfio vfio/vfio c10:196
